@@ -84,7 +84,7 @@ section p {
 
 header {
 	position: absolute;
-	widows: 100%;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -106,10 +106,12 @@ header h2 {
 
 header nav {
 	display: flex;
+	justify-content: flex-end;
 	margin-right: -15px;
 }
 
 header nav li {
+
 	margin: 0 15px;
 }
 
